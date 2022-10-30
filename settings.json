@@ -1,0 +1,339 @@
+{
+  "jest.autoRun": {
+    "jest.autoRun": false,
+    "onSave": "test-only"
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.labelFormat": "short",
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  // Configura tamanho e família da fonte
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
+  "editor.rulers": [
+    80,
+    120
+  ],
+  // Aplicando sinal visual na esquerda da linha selecionada
+  "editor.renderLineHighlight": "gutter",
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.parameterHints.enabled": false,
+  "editor.mouseWheelZoom": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  // Aumenta a fonte do terminal
+  "terminal.integrated.fontSize": 14,
+  "editor.fontFamily": "FiraCode NF, FiraCode Nerd Font, Fira Code",
+  "terminal.integrated.fontFamily": "FiraCode NF, FiraCode Nerd Font, Fira Code",
+  "terminal.external.osxExec": "iTerm.app",
+  // EsLint
+  "eslint.packageManager": "yarn",
+  "eslint.alwaysShowStatus": true,
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  // Gitlens
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "breadcrumbs.enabled": true,
+  "javascript.suggest.autoImports": true,
+  "typescript.tsserver.log": "off",
+  "typescript.suggest.autoImports": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "gitflow.deleteRemoteBranches": false,
+  "extensions.ignoreRecommendations": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  // "material-icon-theme.activeIconPack": "nest",
+  "screencastMode.onlyKeyboardShortcuts": true,
+  // Config Languages
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  // Associando tipos de arquivos
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    ".prettierrc": "json"
+  },
+  "files.exclude": {
+    "**/.git": false,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true
+  },
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe"
+  },
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    "*.proto": "3d"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "cSpell.enabled": true,
+  "cSpell.language": "en,pt,pt_BR",
+  "cSpell.userWords": [
+    "apikey",
+    "BASEVALUE",
+    "castell",
+    "chakra",
+    "cmake",
+    "datetime",
+    "Dont",
+    "dtos",
+    "everyplayer",
+    "evio",
+    "formaters",
+    "gamashi",
+    "gamersclub",
+    "gcui",
+    "gotmpl",
+    "GUUID",
+    "halu",
+    "horadainvencao",
+    "kratos",
+    "Kratos",
+    "Loggi",
+    "Magento",
+    "MGCOM",
+    "middlewares",
+    "multigaming",
+    "nestjs",
+    "Nfse",
+    "notazz",
+    "pagarme",
+    "Parens",
+    "postback",
+    "prebuild",
+    "redir",
+    "sambadigital",
+    "sambatech",
+    "serializers",
+    "Sidinei",
+    "TAXID",
+    "TAXTYPE",
+    "tsyringe",
+    "typeorm",
+    "Unsync",
+    "uuidv",
+    "Valorant",
+    "VALORANT",
+    "wasd",
+    "websockets",
+    "xxxs",
+    "zipcode"
+  ],
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "search.mode": "newEditor",
+  "terminal.external.linuxExec": "/bin/zsh",
+  "terminal.explorerKind": "external",
+  "terminal.external.windowsExec": "wt",
+  "gitlens.advanced.messages": {
+    "suppressGitMissingWarning": true
+  },
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "dart.debugExternalLibraries": false,
+  "dart.debugSdkLibraries": false,
+  "settingsSync.ignoredExtensions": [
+    "dotjoshjohnson.xml",
+    "rifi2k.format-html-in-php",
+    "felixfbecker.php-intellisense",
+    "dart-code.dart-code",
+    "dart-code.flutter",
+    "flutterando.flutter-mobx",
+    "ms-edgedevtools.vscode-edge-devtools"
+  ],
+  "errorLens.fontStyleItalic": true,
+  "oneDarkPro.italic": false,
+  "dart.previewFlutterUiGuides": true,
+  "dart.previewFlutterUiGuidesCustomTracking": true,
+  "redhat.telemetry.enabled": true,
+  "files.eol": "\n",
+  "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "C:\\Program Files\\Git\\bin\\bash.exe (migrated)": {
+      "path": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "args": []
+    },
+    "Windows PowerShell": {
+      "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+    }
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.inlineSuggest.enabled": true,
+  "githubPullRequests.fileListLayout": "flat",
+  "debug.javascript.autoAttachFilter": "onlyWithFlag",
+  "files.insertFinalNewline": true,
+  "files.autoSave": "onFocusChange",
+  "security.workspace.trust.untrustedFiles": "open",
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": true,
+    "markdown": false
+  },
+  "dart.debugExternalPackageLibraries": false,
+  "gitTreeCompare.diffMode": "full",
+  "vscode-edge-devtools.mirrorEdits": true,
+  "editor.guides.bracketPairs": true,
+  "eslint.format.enable": true,
+  "vscodeGoogleTranslate.preferredLanguage": "Afrikaans",
+  "google-translate.firstLanguage": "pt",
+  "google-translate.secondLanguage": "en",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "workbench.colorTheme": "Omni",
+  "peacock.favoriteColors": [
+    {
+      "name": "Angular Red",
+      "value": "#dd0531"
+    },
+    {
+      "name": "Azure Blue",
+      "value": "#007fff"
+    },
+    {
+      "name": "JavaScript Yellow",
+      "value": "#f9e64f"
+    },
+    {
+      "name": "Mandalorian Blue",
+      "value": "#1857a4"
+    },
+    {
+      "name": "Node Green",
+      "value": "#215732"
+    },
+    {
+      "name": "React Blue",
+      "value": "#61dafb"
+    },
+    {
+      "name": "Something Different",
+      "value": "#832561"
+    },
+    {
+      "name": "Svelte Orange",
+      "value": "#ff3d00"
+    },
+    {
+      "name": "Vue Green",
+      "value": "#42b883"
+    },
+    {
+      "name": "Dracula",
+      "value": "#16171d"
+    }
+  ],
+  "git.rebaseWhenSync": true,
+  "workbench.editor.enablePreview": false,
+  "eslint.lintTask.enable": true,
+  "git-graph.dialog.rebase.launchInteractiveRebase": true,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "database-client.highlightSQLBlock": true,
+  "database-client.showUser": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.enableAppInsights": true,
+  "terminal.integrated.showLinkHover": true,
+  "terminal.integrated.shellIntegration.enabled": true,
+  "editor.minimap.enabled": false,
+  "terminal.integrated.allowMnemonics": true,
+  "workbench.editor.wrapTabs": true,
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": false,
+  "githubPullRequests.pullBranch": "never",
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]",
+    "@TODO"
+  ],
+  "todo-tree.general.showIconsInsteadOfTagsInStatusBar": true,
+  "todo-tree.general.statusBar": "total",
+  "editor.stickyScroll.enabled": true,
+  "vscode-pets.petType": "dog",
+  "vscode-pets.position": "explorer",
+  "vscode-pets.theme": "forest",
+  "vscode-pets.petSize": "medium",
+  "workbench.activityBar.visible": false
+}
