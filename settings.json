@@ -1,8 +1,4 @@
 {
-  "jest.autoRun": {
-    "jest.autoRun": false,
-    "onSave": "test-only"
-  },
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.labelFormat": "short",
   "explorer.compactFolders": false,
@@ -37,9 +33,9 @@
   "git.autofetch": true,
   "git.confirmSync": false,
   // Gitlens
-  "gitlens.codeLens.recentChange.enabled": false,
-  "gitlens.codeLens.authors.enabled": false,
-  "gitlens.codeLens.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": true,
+  "gitlens.codeLens.authors.enabled": true,
+  "gitlens.codeLens.enabled": true,
   "breadcrumbs.enabled": true,
   "javascript.suggest.autoImports": true,
   "typescript.tsserver.log": "off",
@@ -48,7 +44,7 @@
   "gitflow.deleteRemoteBranches": false,
   "extensions.ignoreRecommendations": true,
   "liveServer.settings.donotShowInfoMsg": true,
-  // "material-icon-theme.activeIconPack": "nest",
+  "material-icon-theme.activeIconPack": "nest",
   "screencastMode.onlyKeyboardShortcuts": true,
   // Config Languages
   "emmet.syntaxProfiles": {
@@ -105,66 +101,19 @@
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "cSpell.enabled": true,
-  "cSpell.language": "en,pt,pt_BR",
-  "cSpell.userWords": [
-    "apikey",
-    "BASEVALUE",
-    "castell",
-    "chakra",
-    "cmake",
-    "datetime",
-    "Dont",
-    "dtos",
-    "everyplayer",
-    "evio",
-    "formaters",
-    "gamashi",
-    "gamersclub",
-    "gcui",
-    "gotmpl",
-    "GUUID",
-    "halu",
-    "horadainvencao",
-    "kratos",
-    "Kratos",
-    "Loggi",
-    "Magento",
-    "MGCOM",
-    "middlewares",
-    "multigaming",
-    "nestjs",
-    "Nfse",
-    "notazz",
-    "pagarme",
-    "Parens",
-    "postback",
-    "prebuild",
-    "redir",
-    "sambadigital",
-    "sambatech",
-    "serializers",
-    "Sidinei",
-    "TAXID",
-    "TAXTYPE",
-    "tsyringe",
-    "typeorm",
-    "Unsync",
-    "uuidv",
-    "Valorant",
-    "VALORANT",
-    "wasd",
-    "websockets",
-    "xxxs",
-    "zipcode"
-  ],
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "search.mode": "newEditor",
+  "search.mode": "view",
+  "vs-kubernetes": {
+    "vs-kubernetes.minikube-path.linux": "/home/lucas/.vs-kubernetes/tools/minikube/linux-amd64/minikube",
+    "vs-kubernetes.helm-path.linux": "/home/lucas/.vs-kubernetes/tools/helm/linux-amd64/helm",
+    "vscode-kubernetes.minikube-path.linux": "/home/gamersclub/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube",
+    "vscode-kubernetes.helm-path.linux": "/home/gamersclub/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm"
+  },
   "terminal.external.linuxExec": "/bin/zsh",
   "terminal.explorerKind": "external",
   "terminal.external.windowsExec": "wt",
@@ -183,7 +132,6 @@
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": false
   },
-  "dart.debugExternalLibraries": false,
   "dart.debugSdkLibraries": false,
   "settingsSync.ignoredExtensions": [
     "dotjoshjohnson.xml",
@@ -195,7 +143,6 @@
     "ms-edgedevtools.vscode-edge-devtools"
   ],
   "errorLens.fontStyleItalic": true,
-  "oneDarkPro.italic": false,
   "dart.previewFlutterUiGuides": true,
   "dart.previewFlutterUiGuidesCustomTracking": true,
   "redhat.telemetry.enabled": true,
@@ -227,7 +174,6 @@
     }
   },
   "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "editor.inlineSuggest.enabled": true,
   "githubPullRequests.fileListLayout": "flat",
   "debug.javascript.autoAttachFilter": "onlyWithFlag",
@@ -240,15 +186,7 @@
   "[dockerfile]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   },
-  "github.copilot.enable": {
-    "*": true,
-    "yaml": false,
-    "plaintext": true,
-    "markdown": false
-  },
   "dart.debugExternalPackageLibraries": false,
-  "gitTreeCompare.diffMode": "full",
-  "vscode-edge-devtools.mirrorEdits": true,
   "editor.guides.bracketPairs": true,
   "eslint.format.enable": true,
   "vscodeGoogleTranslate.preferredLanguage": "Afrikaans",
@@ -300,17 +238,12 @@
     }
   ],
   "git.rebaseWhenSync": true,
-  "workbench.editor.enablePreview": false,
   "eslint.lintTask.enable": true,
-  "git-graph.dialog.rebase.launchInteractiveRebase": true,
   "gitlens.currentLine.enabled": false,
   "gitlens.hovers.currentLine.over": "line",
-  "database-client.highlightSQLBlock": true,
-  "database-client.showUser": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.copyOnSelection": true,
-  "terminal.enableAppInsights": true,
   "terminal.integrated.showLinkHover": true,
   "terminal.integrated.shellIntegration.enabled": true,
   "editor.minimap.enabled": false,
@@ -333,7 +266,6 @@
   "editor.stickyScroll.enabled": true,
   "vscode-pets.petType": "dog",
   "vscode-pets.position": "explorer",
-  "vscode-pets.theme": "forest",
-  "vscode-pets.petSize": "medium",
-  "workbench.activityBar.visible": false
+  "vscode-pets.theme": "beach",
+  "vscode-pets.petSize": "nano",
 }
