@@ -41,9 +41,7 @@
   "typescript.tsserver.log": "off",
   "typescript.suggest.autoImports": true,
   "diffEditor.ignoreTrimWhitespace": false,
-  "gitflow.deleteRemoteBranches": false,
   "extensions.ignoreRecommendations": true,
-  "liveServer.settings.donotShowInfoMsg": true,
   "material-icon-theme.activeIconPack": "nest",
   "screencastMode.onlyKeyboardShortcuts": true,
   // Config Languages
@@ -108,12 +106,6 @@
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "search.mode": "view",
-  "vs-kubernetes": {
-    "vs-kubernetes.minikube-path.linux": "/home/lucas/.vs-kubernetes/tools/minikube/linux-amd64/minikube",
-    "vs-kubernetes.helm-path.linux": "/home/lucas/.vs-kubernetes/tools/helm/linux-amd64/helm",
-    "vscode-kubernetes.minikube-path.linux": "/home/gamersclub/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube",
-    "vscode-kubernetes.helm-path.linux": "/home/gamersclub/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm"
-  },
   "terminal.external.linuxExec": "/bin/zsh",
   "terminal.explorerKind": "external",
   "terminal.external.windowsExec": "wt",
@@ -145,7 +137,6 @@
   "errorLens.fontStyleItalic": true,
   "dart.previewFlutterUiGuides": true,
   "dart.previewFlutterUiGuidesCustomTracking": true,
-  "redhat.telemetry.enabled": true,
   "files.eol": "\n",
   "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
   "workbench.iconTheme": "material-icon-theme",
@@ -175,7 +166,6 @@
   },
   "editor.suggestSelection": "first",
   "editor.inlineSuggest.enabled": true,
-  "githubPullRequests.fileListLayout": "flat",
   "debug.javascript.autoAttachFilter": "onlyWithFlag",
   "files.insertFinalNewline": true,
   "files.autoSave": "onFocusChange",
@@ -183,15 +173,10 @@
   "[typescript]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
-  "[dockerfile]": {
-    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
-  },
   "dart.debugExternalPackageLibraries": false,
   "editor.guides.bracketPairs": true,
   "eslint.format.enable": true,
   "vscodeGoogleTranslate.preferredLanguage": "Afrikaans",
-  "google-translate.firstLanguage": "pt",
-  "google-translate.secondLanguage": "en",
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairsHorizontal": true,
   "workbench.colorTheme": "Omni",
@@ -219,6 +204,10 @@
     {
       "name": "React Blue",
       "value": "#61dafb"
+    },
+    {
+      "name": "Next Blue",
+      "value": "#0e069e"
     },
     {
       "name": "Something Different",
@@ -250,7 +239,6 @@
   "terminal.integrated.allowMnemonics": true,
   "workbench.editor.wrapTabs": true,
   "typescript.format.insertSpaceBeforeFunctionParenthesis": false,
-  "githubPullRequests.pullBranch": "never",
   "todo-tree.general.tags": [
     "BUG",
     "HACK",
@@ -267,5 +255,6 @@
   "vscode-pets.petType": "dog",
   "vscode-pets.position": "explorer",
   "vscode-pets.theme": "beach",
-  "vscode-pets.petSize": "nano"
+  "vscode-pets.petSize": "nano",
+  "sync.gist": "6d5792722ac3553fb3751cff1cac2095"
 }
