@@ -1,4 +1,8 @@
 {
+  "jest.autoRun": {
+    "jest.autoRun": false,
+    "onSave": "test-only"
+  },
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.labelFormat": "short",
   "explorer.compactFolders": false,
@@ -41,7 +45,9 @@
   "typescript.tsserver.log": "off",
   "typescript.suggest.autoImports": true,
   "diffEditor.ignoreTrimWhitespace": false,
+  "gitflow.deleteRemoteBranches": true,
   "extensions.ignoreRecommendations": true,
+  "liveServer.settings.donotShowInfoMsg": true,
   "material-icon-theme.activeIconPack": "nest",
   "screencastMode.onlyKeyboardShortcuts": true,
   // Config Languages
@@ -99,6 +105,59 @@
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
+  "cSpell.enabled": true,
+  "cSpell.language": "en,pt,pt_BR",
+  "cSpell.userWords": [
+    "apikey",
+    "BASEVALUE",
+    "castell",
+    "chakra",
+    "cmake",
+    "datetime",
+    "Dont",
+    "dtos",
+    "everyplayer",
+    "evio",
+    "formaters",
+    "gamashi",
+    "gamersclub",
+    "gcui",
+    "gotmpl",
+    "GUUID",
+    "halu",
+    "horadainvencao",
+    "kratos",
+    "Kratos",
+    "Loggi",
+    "Magento",
+    "MGCOM",
+    "middlewares",
+    "multigaming",
+    "nestjs",
+    "Nfse",
+    "notazz",
+    "pagarme",
+    "Parens",
+    "postback",
+    "prebuild",
+    "redir",
+    "sambadigital",
+    "sambatech",
+    "serializers",
+    "Sidinei",
+    "TAXID",
+    "TAXTYPE",
+    "tsyringe",
+    "typeorm",
+    "Unsync",
+    "uuidv",
+    "Valorant",
+    "VALORANT",
+    "wasd",
+    "websockets",
+    "xxxs",
+    "zipcode"
+  ],
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
@@ -124,6 +183,7 @@
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": false
   },
+  "dart.debugExternalLibraries": false,
   "dart.debugSdkLibraries": false,
   "settingsSync.ignoredExtensions": [
     "dotjoshjohnson.xml",
@@ -135,8 +195,10 @@
     "ms-edgedevtools.vscode-edge-devtools"
   ],
   "errorLens.fontStyleItalic": true,
+  "oneDarkPro.italic": false,
   "dart.previewFlutterUiGuides": true,
   "dart.previewFlutterUiGuidesCustomTracking": true,
+  "redhat.telemetry.enabled": true,
   "files.eol": "\n",
   "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
   "workbench.iconTheme": "material-icon-theme",
@@ -165,7 +227,9 @@
     }
   },
   "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "editor.inlineSuggest.enabled": true,
+  "githubPullRequests.fileListLayout": "flat",
   "debug.javascript.autoAttachFilter": "onlyWithFlag",
   "files.insertFinalNewline": true,
   "files.autoSave": "onFocusChange",
@@ -173,10 +237,23 @@
   "[typescript]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": true,
+    "markdown": false
+  },
   "dart.debugExternalPackageLibraries": false,
+  "gitTreeCompare.diffMode": "full",
+  "vscode-edge-devtools.mirrorEdits": true,
   "editor.guides.bracketPairs": true,
   "eslint.format.enable": true,
   "vscodeGoogleTranslate.preferredLanguage": "Afrikaans",
+  "google-translate.firstLanguage": "pt",
+  "google-translate.secondLanguage": "en",
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairsHorizontal": true,
   "workbench.colorTheme": "Omni",
@@ -206,10 +283,6 @@
       "value": "#61dafb"
     },
     {
-      "name": "Next Blue",
-      "value": "#0e069e"
-    },
-    {
       "name": "Something Different",
       "value": "#832561"
     },
@@ -227,18 +300,24 @@
     }
   ],
   "git.rebaseWhenSync": true,
+  "workbench.editor.enablePreview": false,
   "eslint.lintTask.enable": true,
+  "git-graph.dialog.rebase.launchInteractiveRebase": true,
   "gitlens.currentLine.enabled": true,
   "gitlens.hovers.currentLine.over": "line",
+  "database-client.highlightSQLBlock": true,
+  "database-client.showUser": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.copyOnSelection": true,
+  "terminal.enableAppInsights": true,
   "terminal.integrated.showLinkHover": true,
   "terminal.integrated.shellIntegration.enabled": true,
   "editor.minimap.enabled": false,
   "terminal.integrated.allowMnemonics": true,
   "workbench.editor.wrapTabs": true,
   "typescript.format.insertSpaceBeforeFunctionParenthesis": false,
+  "githubPullRequests.pullBranch": "never",
   "todo-tree.general.tags": [
     "BUG",
     "HACK",
@@ -254,7 +333,7 @@
   "editor.stickyScroll.enabled": true,
   "vscode-pets.petType": "dog",
   "vscode-pets.position": "explorer",
-  "vscode-pets.theme": "beach",
-  "vscode-pets.petSize": "nano",
+  "vscode-pets.theme": "forest",
+  "vscode-pets.petSize": "medium",
   "sync.gist": "6d5792722ac3553fb3751cff1cac2095"
 }
