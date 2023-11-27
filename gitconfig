@@ -1,0 +1,23 @@
+[user]
+  email = laobevilaqua@outlook.com
+  name = lucbevilaqua
+[core]
+  editor = code --wait
+[alias]
+  s = !git status -s
+  c = !git add --all && git commit -m
+  ck = !git checkout
+  ckb = !git checkout -b
+  l = ! git log --graph --pretty=format:'%C(blue)%h %C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
+  # usar o chama quando deseja atualizar a propria branch
+  chama = !git fetch && git pull --rebase
+  # usar o get-main para atualizar com a main
+  get-main = !git rebase main
+  # usar o get-master para atualizar com a develop
+  get-develop = !git rebase develop
+  # usar para atualizar a branch
+  update = !git checkout main && git chama && git ck - && git get-main
+  # usar na branch que deseja mandar para homolog
+  homolog = !git update && git ck homolog && git get-main && git rebase -
+[credential]
+  helper = store
