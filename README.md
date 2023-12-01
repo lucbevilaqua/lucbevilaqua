@@ -2,9 +2,9 @@
 
 <h3> 💻 &nbsp;About Me </h3>
 
-- 🤔 &nbsp; Software Engineer.
+- 🤔 &nbsp; Software Engineer Frontend Senior.
 - :nerd_face: &nbsp; IT enthusiast passionated about technologies
-- 🎓 &nbsp; Studying Bachelor of Information Systems at Fundação Herminio Ometto.
+- 🎓 &nbsp; Bachelor of Information Systems at Fundação Herminio Ometto.
 - 🎓 &nbsp; Graduated in WEB Information Technician at UNICAMP Limeira Brazil.
 - 😲 &nbsp; Coding since 2019
 
@@ -23,7 +23,9 @@
   ![Bootstrap](https://img.shields.io/badge/-Bootstrap-333333?style=flat&logo=Bootstrap)
 - :iphone: &nbsp;
   ![React Native](https://img.shields.io/badge/-ReactNative-333333?style=flat&logo=react)
+  ![Expo](https://img.shields.io/badge/-Expo-333333?style=flat&logo=expo)
 - 🛢 &nbsp;
+  ![Firebase](https://img.shields.io/badge/-Firebase-333333?style=flat&logo=firebase)
   ![MongoDB](https://img.shields.io/badge/-MongoDB-333333?style=flat&logo=mongodb)
   ![SqlServer](https://img.shields.io/badge/-SqlServer-333333?style=flat&logo=Microsoft%20SQL%20Server)
   ![MySql](https://img.shields.io/badge/-MySql-333333?style=flat&logo=MySQL)
