@@ -1,6 +1,6 @@
 [user]
   email = laobevilaqua@outlook.com
-  name = lucbevilaqua
+  name = lucas bevilaqua araujo de oliveira
 [core]
   editor = code --wait
 [alias]
@@ -8,7 +8,7 @@
   c = !git add --all && git commit -m
   ck = !git checkout
   ckb = !git checkout -b
-  l = ! git log --graph --pretty=format:'%C(blue)%h %C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
+  l = "!git log --graph --pretty=format:\"%C(blue)%h %C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr\""
   # usar o chama quando deseja atualizar a propria branch
   chama = !git fetch && git pull --rebase
   # usar o get-main para atualizar com a main
