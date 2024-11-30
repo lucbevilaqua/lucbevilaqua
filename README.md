@@ -44,8 +44,6 @@
 </a>
 </p>
 
-[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/default-orange.png)](https://www.buymeacoffee.com/seu-usuario)
-
 <h3> 🤝🏻 &nbsp;Connect with Me </h3>
-<a href="https://www.linkedin.com/in/laobevilaqua/"><img src="https://img.shields.io/badge/-Lucas%20Bevilaqua%20Araujo%20De%20Oliveira-0077B5?style=flat-square&logo=Linkedin&logoColor=white"/></a> &nbsp;
+<a href="https://www.linkedin.com/in/lucbevilaqua/"><img src="https://img.shields.io/badge/-Lucas%20Bevilaqua%20Araujo%20De%20Oliveira-0077B5?style=flat-square&logo=Linkedin&logoColor=white"/></a> &nbsp;
 <a href="figma.com/@luc_bevilaqua"><img src="https://img.shields.io/badge/-Lucas%20Bevilaqua-333333?style=flat-square&logo=Figma&logoColor=white"/></a>
