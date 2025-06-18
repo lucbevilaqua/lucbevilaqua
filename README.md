@@ -2,13 +2,14 @@
 
 <h3> 💻 &nbsp;About Me </h3>
 
-- 🤔 &nbsp; Software Engineer Frontend Senior.
-- :nerd_face: &nbsp; IT enthusiast passionated about technologies
-- 🎓 &nbsp; Bachelor of Information Systems at Fundação Herminio Ometto.
-- 🎓 &nbsp; Graduated in WEB Information Technician at UNICAMP Limeira Brazil.
-- 😲 &nbsp; Coding since 2019
-- 🌎 Creator of the [figma-codegen](https://www.figma.com/community/plugin/1314693808615895175/figma-codegen-beta) plugin
-
+- 🤔 &nbsp; Software Engineer Frontend Senior.  
+- 🧠 &nbsp; CEO and founder of [Chat Whiz](https://chat-whiz.com) – your AI chatbot powered by your own knowledge base.  
+- 🌐 &nbsp; Visit my [portfolio](https://service-web-portfolio.vercel.app/)  
+- 🤓 &nbsp; IT enthusiast passionate about technologies.  
+- 🎓 &nbsp; Bachelor of Information Systems at Fundação Herminio Ometto.  
+- 🎓 &nbsp; Graduated in WEB Information Technician at UNICAMP Limeira, Brazil.  
+- 😲 &nbsp; Coding since 2019.  
+- 🛠️ &nbsp; Creator of the [figma-codegen](https://www.figma.com/community/plugin/1314693808615895175/figma-codegen-beta) plugin.
 
 <h3> 🛠 &nbsp;Tech Stack</h3>
 
@@ -22,6 +23,7 @@
   ![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6)
   ![Bulma](https://img.shields.io/badge/-Bulma-333333?style=flat&logo=bulma&logoColor=563D7C)
   ![Bootstrap](https://img.shields.io/badge/-Bootstrap-333333?style=flat&logo=Bootstrap)
+  ![tailwindcss](https://img.shields.io/badge/-tailwindcss-333333?style=flat&logo=tailwindcss)
 - :iphone: &nbsp;
   ![React Native](https://img.shields.io/badge/-ReactNative-333333?style=flat&logo=react)
   ![Expo](https://img.shields.io/badge/-Expo-333333?style=flat&logo=expo)
@@ -44,6 +46,20 @@
 </a>
 </p>
 
-<h3> 🤝🏻 &nbsp;Connect with Me </h3>
-<a href="https://www.linkedin.com/in/lucbevilaqua/"><img src="https://img.shields.io/badge/-Lucas%20Bevilaqua%20Araujo%20De%20Oliveira-0077B5?style=flat-square&logo=Linkedin&logoColor=white"/></a> &nbsp;
-<a href="figma.com/@luc_bevilaqua"><img src="https://img.shields.io/badge/-Lucas%20Bevilaqua-333333?style=flat-square&logo=Figma&logoColor=white"/></a>
+<h3>🌐 &nbsp;Connect with Me</h3>
+
+<a href="https://www.linkedin.com/in/lucbevilaqua/">
+  <img src="https://img.shields.io/badge/lucbevilaqua-0077B5?style=flat-square&logo=LinkedIn&logoColor=white"/>
+</a> &nbsp;
+
+<a href="https://figma.com/@luc_bevilaqua">
+  <img src="https://img.shields.io/badge/-Lucas%20Bevilaqua-333333?style=flat-square&logo=Figma&logoColor=white"/>
+</a> &nbsp;
+
+<a href="https://www.instagram.com/lc_bevilaqua">
+  <img src="https://img.shields.io/badge/-@lc_bevilaqua-E4405F?style=flat-square&logo=Instagram&logoColor=white"/>
+</a> &nbsp;
+
+<a href="https://medium.com/@lucbevilaqua">
+  <img src="https://img.shields.io/badge/-@lucbevilaqua-12100E?style=flat-square&logo=Medium&logoColor=white"/>
+</a>
